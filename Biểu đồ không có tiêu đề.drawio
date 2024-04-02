@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T15:12:36.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mxvdOXSN3g1xwjt0uzbr" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T16:14:05.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gKCRXtk0SXfP_q93pMCY" version="24.2.1" type="github">
   <diagram name="Trang-1" id="cKVeFUdPySGMX1__dL8V">
-    <mxGraphModel dx="2447" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2487" dy="3192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-19" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-2260" width="130" height="60" as="geometry" />
+          <mxGeometry x="-800" y="-2260" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-20" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-19">
           <mxGeometry y="30" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-21" value="Post" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="-2260" width="140" height="90" as="geometry" />
+          <mxGeometry x="-587" y="-2260" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-22" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-21">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -49,11 +49,11 @@
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;From Comment, we want to&amp;nbsp; get the User =&amp;gt; Use relationship &lt;b&gt;belongsToMany&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model Comment&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;belongsToMany(User::class, Post::class, &#39;id&#39;, &#39;user_id&#39;)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-820" y="-2120" width="650" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Type 1 of belongsToMany&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="-2325" width="240" height="40" as="geometry" />
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;01. Type 1 of belongsToMany relationship&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-2320" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Type 2 of belongsToMany&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="-2040" width="240" height="40" as="geometry" />
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;02. Type 2 of belongsToMany relationship&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-2050" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-36" value="Member" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-800" y="-2000" width="130" height="60" as="geometry" />
@@ -99,6 +99,74 @@
         </mxCell>
         <mxCell id="16BfZ7myWpKAJ3i0KqOJ-50" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;From Member,we want to&amp;nbsp; get the Team OR From Team, we want to get Member&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;=&amp;gt; Use relationship &lt;b&gt;belongsToMany&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model Member&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;belongsToMany(Team::class, TeamMember::class, &#39;team_id&#39;, &#39;member_id&#39;);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model Team&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;belongsToMany(Member::class, TeamMember::class, &#39;member_id&#39;, &#39;team_id&#39;);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-810" y="-1870" width="670" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-51" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;03. hasMany relationship&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-1730" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-54" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1690" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-55" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-54">
+          <mxGeometry y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-56" value="Post" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-587" y="-1690" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-57" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-56">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-58" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-56">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16BfZ7myWpKAJ3i0KqOJ-55" target="16BfZ7myWpKAJ3i0KqOJ-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-557" y="-2250" as="sourcePoint" />
+            <mxPoint x="-457" y="-2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-63" value="1-n" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-66" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;From User, we want to&amp;nbsp; get the Post =&amp;gt; Use relationship&amp;nbsp;&lt;b&gt;hasMany&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model User&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;hasMany(Post::class,&#39;user_id&#39;, &#39;id&#39;);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1580" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-67" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;04. hasOne relationship&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1310" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-73" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-74" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-73">
+          <mxGeometry y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-75" value="Phone" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-587" y="-1240" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-76" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-75">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-77" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-75">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-80" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16BfZ7myWpKAJ3i0KqOJ-74" target="16BfZ7myWpKAJ3i0KqOJ-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-105" y="-1463" as="sourcePoint" />
+            <mxPoint x="-55" y="-1513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-81" value="1-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16BfZ7myWpKAJ3i0KqOJ-80">
+          <mxGeometry x="0.0669" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-82" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;From User, we want to&amp;nbsp; get the Phone OR From Phone we want to get User&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;=&amp;gt; Use relationship&amp;nbsp;&lt;b&gt;hasOne&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model User&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;hasOne(Phone::class,&#39;user_id&#39;, &#39;id&#39;);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;//Model Phone&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;hasOne(User::class, &#39;user_id&#39;, &#39;id&#39;);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1130" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-83" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;04. belongsTo relationship (is inverse of hasMany relationship)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-1500" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-84" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;From Post, we want to&amp;nbsp; get the User =&amp;gt; Use relationship&amp;nbsp;&lt;b&gt;belongsTo&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model Post&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;belongsTo(User::class, &#39;user_id&#39;, &#39;id&#39;);&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1460" width="570" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
