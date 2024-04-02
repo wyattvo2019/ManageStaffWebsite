@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T15:45:25.756Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="24.2.1" etag="2alhymowY568-xMWP-eS" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T14:58:30.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="a9Wa1k2vxyXUCr46VOoW" version="24.2.1" type="github">
   <diagram name="Trang-1" id="cKVeFUdPySGMX1__dL8V">
-    <mxGraphModel>
+    <mxGraphModel dx="2447" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-19" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-787" y="-2330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-20" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-19">
+          <mxGeometry y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-21" value="Post" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-597" y="-2330" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-22" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-21">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-23" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-21">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-24" value="Comment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-377" y="-2330" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-25" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-24">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-26" value="post_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-24">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16BfZ7myWpKAJ3i0KqOJ-20" target="16BfZ7myWpKAJ3i0KqOJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-567" y="-2260" as="sourcePoint" />
+            <mxPoint x="-467" y="-2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-28" value="1-n" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="16BfZ7myWpKAJ3i0KqOJ-22" target="16BfZ7myWpKAJ3i0KqOJ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-647" y="-2262" as="sourcePoint" />
+            <mxPoint x="-567" y="-2245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-30" value="1-n" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="16BfZ7myWpKAJ3i0KqOJ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16BfZ7myWpKAJ3i0KqOJ-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;From Comment, we want to&amp;nbsp; get the User =&amp;gt; Use relationship &lt;b&gt;belongsToMany&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;//Model Comment&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;$this-&amp;gt;belongsToMany(User::class, Post::class, &#39;id&#39;, &#39;user_id&#39;)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-2220" width="650" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
