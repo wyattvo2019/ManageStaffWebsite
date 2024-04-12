@@ -14,9 +14,9 @@ class CandidateSkillTableSeeder extends Seeder
     public function run(): void
     {
         DB::table('candidate_skill')->insert([
-            array('del_flag'=>false, 'candidate_id'=>1,'skill_id'=>1, 'created_by'=>1, 'modified_by'=>1, 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()),
-            array('del_flag'=>false, 'candidate_id'=>2,'skill_id'=>2, 'created_by'=>1, 'modified_by'=>1, 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()),
-            array('del_flag'=>false, 'candidate_id'=>3,'skill_id'=>3, 'created_by'=>1, 'modified_by'=>1, 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()),
+            array('del_flag'=>false, 'candidate_id'=>1,'skill_id'=>8, 'created_by'=>1, 'modified_by'=>1, 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()),
+            array('del_flag'=>false, 'candidate_id'=>2,'skill_id'=>9, 'created_by'=>1, 'modified_by'=>1, 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()),
+            array('del_flag'=>false, 'candidate_id'=>3,'skill_id'=>10, 'created_by'=>1, 'modified_by'=>1, 'created_at'=>Carbon::now(), 'updated_at'=>Carbon::now()),
         ]);
     }
 }
