@@ -95,4 +95,36 @@ php artisan db:seed --class=InterviewerCommentTableSeeder
 php artisan migrate:fresh --seed
 ```
 
-## 7. 
+## 7. Create Controller
+```
+php artisan make:controller CandidateContactController --resource
+php artisan make:controller CandidateController --resource 
+php artisan make:controller CandidateSkillController --resource
+php artisan make:controller ConfigurationController --resource
+php artisan make:controller InterviewController --resource
+php artisan make:controller InterviewerController --resource
+php artisan make:controller MemberController --resource
+php artisan make:controller TeamController --resource
+php artisan make:controller TeamMemberController --resource
+
+
+```
+
+## 8. Create React App
+```
+npx create-react-app client
+cd client
+npm start
+```
+
+## 9. Íntall semantic, reactstrap
+```
+npm i semantic-ui-react --save
+npm i bootstrap --save
+npm i reactstrap react react-dom --save
+```
+
+## 10. 
+```
+```
+
