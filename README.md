@@ -117,14 +117,16 @@ cd client
 npm start
 ```
 
-## 9. Íntall semantic, reactstrap
+## 9. Install semantic, reactstrap
 ```
 npm i semantic-ui-react --save
 npm i bootstrap --save
 npm i reactstrap react react-dom --save
 ```
 
-## 10. 
+## 10. Install semantic-ui-css
 ```
+npm install semantic-ui-react semantic-ui-css --save
+npm i node-sass --save
 ```
 
